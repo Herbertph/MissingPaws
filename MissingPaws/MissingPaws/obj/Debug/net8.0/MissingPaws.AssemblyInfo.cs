@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MissingPaws")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+491c5b3b9ee3e986094233de2790aa7b776d52f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12607b14eef72f35088fee1dcde2896835beeb7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MissingPaws")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MissingPaws")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

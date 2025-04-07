@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingPaws", "MissingPaws\MissingPaws.csproj", "{AC0160A1-C1B3-4A98-B633-74909204F8F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingPaws.Tests", "MissingPaws.Tests\MissingPaws.Tests.csproj", "{635F51DC-5717-4DA2-9758-BB28524777B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AC0160A1-C1B3-4A98-B633-74909204F8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC0160A1-C1B3-4A98-B633-74909204F8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC0160A1-C1B3-4A98-B633-74909204F8F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{635F51DC-5717-4DA2-9758-BB28524777B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635F51DC-5717-4DA2-9758-BB28524777B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635F51DC-5717-4DA2-9758-BB28524777B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635F51DC-5717-4DA2-9758-BB28524777B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
