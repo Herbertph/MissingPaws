@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{635F51DC-5717-4DA2-9758-BB28524777B1}|MissingPaws.Tests\\MissingPaws.Tests.csproj|c:\\users\\herbert.parasio\\desktop\\dev\\missingpaws\\missingpaws\\missingpaws.tests\\tests\\lostpetscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635F51DC-5717-4DA2-9758-BB28524777B1}|MissingPaws.Tests\\MissingPaws.Tests.csproj|solutionrelative:missingpaws.tests\\tests\\lostpetscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635F51DC-5717-4DA2-9758-BB28524777B1}|MissingPaws.Tests\\MissingPaws.Tests.csproj|c:\\users\\herbert.parasio\\desktop\\dev\\missingpaws\\missingpaws\\missingpaws.tests\\missingpaws.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{635F51DC-5717-4DA2-9758-BB28524777B1}|MissingPaws.Tests\\MissingPaws.Tests.csproj|solutionrelative:missingpaws.tests\\missingpaws.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{635F51DC-5717-4DA2-9758-BB28524777B1}|MissingPaws.Tests\\MissingPaws.Tests.csproj|c:\\users\\herbert.parasio\\desktop\\dev\\missingpaws\\missingpaws\\missingpaws.tests\\tests\\lostpettests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{635F51DC-5717-4DA2-9758-BB28524777B1}|MissingPaws.Tests\\MissingPaws.Tests.csproj|solutionrelative:missingpaws.tests\\tests\\lostpettests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,11 +54,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MissingPaws.Tests",
+              "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws.Tests\\MissingPaws.Tests.csproj",
+              "RelativeDocumentMoniker": "MissingPaws.Tests\\MissingPaws.Tests.csproj",
+              "ToolTip": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws.Tests\\MissingPaws.Tests.csproj",
+              "RelativeToolTip": "MissingPaws.Tests\\MissingPaws.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T14:52:23.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LostPetsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws.Tests\\Tests\\LostPetsControllerTests.cs",
+              "RelativeDocumentMoniker": "MissingPaws.Tests\\Tests\\LostPetsControllerTests.cs",
+              "ToolTip": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws.Tests\\Tests\\LostPetsControllerTests.cs",
+              "RelativeToolTip": "MissingPaws.Tests\\Tests\\LostPetsControllerTests.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAIAwwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:49:47.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LostPetTests.cs",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws.Tests\\Tests\\LostPetTests.cs",
               "RelativeDocumentMoniker": "MissingPaws.Tests\\Tests\\LostPetTests.cs",
@@ -63,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "MissingPaws.Tests\\UnitTest1.cs",
@@ -76,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LostPetsController.cs",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\Controllers\\LostPetsController.cs",
               "RelativeDocumentMoniker": "MissingPaws\\Controllers\\LostPetsController.cs",
@@ -89,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "20250402101902_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\Migrations\\20250402101902_InitialCreate.cs",
               "RelativeDocumentMoniker": "MissingPaws\\Migrations\\20250402101902_InitialCreate.cs",
@@ -102,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MissingPaws",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\MissingPaws.csproj",
               "RelativeDocumentMoniker": "MissingPaws\\MissingPaws.csproj",
@@ -114,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\appsettings.json",
               "RelativeDocumentMoniker": "MissingPaws\\appsettings.json",
@@ -127,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\Program.cs",
               "RelativeDocumentMoniker": "MissingPaws\\Program.cs",
@@ -140,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "MissingPaws\\Data\\ApplicationDbContext.cs",
@@ -153,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "LostPet.cs",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\Models\\LostPet.cs",
               "RelativeDocumentMoniker": "MissingPaws\\Models\\LostPet.cs",

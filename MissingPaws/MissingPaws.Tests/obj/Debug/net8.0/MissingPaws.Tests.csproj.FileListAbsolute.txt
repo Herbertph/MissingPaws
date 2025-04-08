@@ -124,3 +124,6 @@ C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws.Tests\o
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws.Tests\obj\Debug\net8.0\MissingPaws.Tests.pdb
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws.Tests\obj\Debug\net8.0\MissingPaws.Tests.genruntimeconfig.cache
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws.Tests\obj\Debug\net8.0\ref\MissingPaws.Tests.dll
+C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws.Tests\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws.Tests\bin\Debug\net8.0\Moq.dll
+C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws.Tests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
