@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AC0160A1-C1B3-4A98-B633-74909204F8F2}|MissingPaws\\MissingPaws.csproj|c:\\users\\herbert.parasio\\desktop\\dev\\missingpaws\\missingpaws\\missingpaws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC0160A1-C1B3-4A98-B633-74909204F8F2}|MissingPaws\\MissingPaws.csproj|solutionrelative:missingpaws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{635F51DC-5717-4DA2-9758-BB28524777B1}|MissingPaws.Tests\\MissingPaws.Tests.csproj|c:\\users\\herbert.parasio\\desktop\\dev\\missingpaws\\missingpaws\\missingpaws.tests\\tests\\lostpetscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{635F51DC-5717-4DA2-9758-BB28524777B1}|MissingPaws.Tests\\MissingPaws.Tests.csproj|solutionrelative:missingpaws.tests\\tests\\lostpetscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{AC0160A1-C1B3-4A98-B633-74909204F8F2}|MissingPaws\\MissingPaws.csproj|solutionrelative:missingpaws\\missingpaws.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC0160A1-C1B3-4A98-B633-74909204F8F2}|MissingPaws\\MissingPaws.csproj|c:\\users\\herbert.parasio\\desktop\\dev\\missingpaws\\missingpaws\\missingpaws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC0160A1-C1B3-4A98-B633-74909204F8F2}|MissingPaws\\MissingPaws.csproj|solutionrelative:missingpaws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC0160A1-C1B3-4A98-B633-74909204F8F2}|MissingPaws\\MissingPaws.csproj|c:\\users\\herbert.parasio\\desktop\\dev\\missingpaws\\missingpaws\\missingpaws\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC0160A1-C1B3-4A98-B633-74909204F8F2}|MissingPaws\\MissingPaws.csproj|solutionrelative:missingpaws\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -54,37 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MissingPaws.Tests",
-              "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws.Tests\\MissingPaws.Tests.csproj",
-              "RelativeDocumentMoniker": "MissingPaws.Tests\\MissingPaws.Tests.csproj",
-              "ToolTip": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws.Tests\\MissingPaws.Tests.csproj",
-              "RelativeToolTip": "MissingPaws.Tests\\MissingPaws.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-08T14:52:23.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "LostPetsControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws.Tests\\Tests\\LostPetsControllerTests.cs",
               "RelativeDocumentMoniker": "MissingPaws.Tests\\Tests\\LostPetsControllerTests.cs",
               "ToolTip": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws.Tests\\Tests\\LostPetsControllerTests.cs",
               "RelativeToolTip": "MissingPaws.Tests\\Tests\\LostPetsControllerTests.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAIAwwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAIAwwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T14:49:47.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LostPetTests.cs",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws.Tests\\Tests\\LostPetTests.cs",
               "RelativeDocumentMoniker": "MissingPaws.Tests\\Tests\\LostPetTests.cs",
@@ -92,12 +79,11 @@
               "RelativeToolTip": "MissingPaws.Tests\\Tests\\LostPetTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T15:13:21.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T15:13:21.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "MissingPaws.Tests\\UnitTest1.cs",
@@ -105,12 +91,11 @@
               "RelativeToolTip": "MissingPaws.Tests\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T15:10:37.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T15:10:37.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LostPetsController.cs",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\Controllers\\LostPetsController.cs",
               "RelativeDocumentMoniker": "MissingPaws\\Controllers\\LostPetsController.cs",
@@ -118,8 +103,7 @@
               "RelativeToolTip": "MissingPaws\\Controllers\\LostPetsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:32:03.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T15:32:03.801Z"
             },
             {
               "$type": "Document",
@@ -131,24 +115,47 @@
               "RelativeToolTip": "MissingPaws\\Migrations\\20250402101902_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T10:19:02.524Z",
+              "WhenOpened": "2025-04-02T10:19:02.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\Program.cs",
+              "RelativeDocumentMoniker": "MissingPaws\\Program.cs",
+              "ToolTip": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\Program.cs",
+              "RelativeToolTip": "MissingPaws\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwB4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:12:47.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "MissingPaws.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws.Tests\\MissingPaws.Tests.csproj",
+              "RelativeDocumentMoniker": "MissingPaws.Tests\\MissingPaws.Tests.csproj",
+              "ToolTip": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws.Tests\\MissingPaws.Tests.csproj",
+              "RelativeToolTip": "MissingPaws.Tests\\MissingPaws.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T14:52:23.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MissingPaws",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\MissingPaws.csproj",
               "RelativeDocumentMoniker": "MissingPaws\\MissingPaws.csproj",
               "ToolTip": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\MissingPaws.csproj",
               "RelativeToolTip": "MissingPaws\\MissingPaws.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-02T10:17:30.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T10:17:30.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\appsettings.json",
               "RelativeDocumentMoniker": "MissingPaws\\appsettings.json",
@@ -156,21 +163,7 @@
               "RelativeToolTip": "MissingPaws\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-02T10:13:33.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\Program.cs",
-              "RelativeDocumentMoniker": "MissingPaws\\Program.cs",
-              "ToolTip": "C:\\Users\\herbert.parasio\\Desktop\\Dev\\MissingPaws\\MissingPaws\\MissingPaws\\Program.cs",
-              "RelativeToolTip": "MissingPaws\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T10:12:47.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T10:13:33.322Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "RelativeToolTip": "MissingPaws\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T10:11:08.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T10:11:08.191Z"
             },
             {
               "$type": "Document",
@@ -195,8 +187,7 @@
               "RelativeToolTip": "MissingPaws\\Models\\LostPet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T10:10:05.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T10:10:05.531Z"
             }
           ]
         }
