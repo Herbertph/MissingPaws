@@ -39,13 +39,16 @@ namespace MissingPaws.API.Controllers
 
         // POST: api/LostPets
         [HttpPost]
-        public async Task<ActionResult<LostPet>> PostLostPet(LostPet pet)
-        {
-            _context.LostPets.Add(pet);
-            await _context.SaveChangesAsync();
+public async Task<ActionResult<LostPet>> PostLostPet(LostPet pet)
+{
+    pet.MissingDate = DateTime.SpecifyKind(pet.MissingDate, DateTimeKind.Utc); 
 
-            return CreatedAtAction(nameof(GetLostPet), new { id = pet.Id }, pet);
-        }
+    _context.LostPets.Add(pet);
+    await _context.SaveChangesAsync();
+
+    return CreatedAtAction(nameof(GetLostPet), new { id = pet.Id }, pet);
+}
+
 
         // PUT: api/LostPets/5
         [HttpPut("{id}")]

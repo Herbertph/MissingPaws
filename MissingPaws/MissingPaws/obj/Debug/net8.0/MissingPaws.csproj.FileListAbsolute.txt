@@ -136,4 +136,3 @@ C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Deb
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\MissingPaws.pdb
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\MissingPaws.genruntimeconfig.cache
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\ref\MissingPaws.dll
-C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
