@@ -20,7 +20,9 @@ namespace MissingPaws.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<LostPet>>> GetLostPets()
         {
-            return await _context.LostPets.ToListAsync();
+            return await _context.LostPets
+                .Where(p => p.IsApproved)
+                .ToListAsync();
         }
 
         // GET: api/LostPets/5
@@ -79,6 +81,19 @@ namespace MissingPaws.API.Controllers
                 return NotFound();
 
             _context.LostPets.Remove(pet);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        [HttpPut("approve/{id}")]
+        public async Task<IActionResult> ApprovePet(int id)
+        {
+            var pet = await _context.LostPets.FindAsync(id);
+            if (pet == null)
+                return NotFound();
+
+            pet.IsApproved = true;
             await _context.SaveChangesAsync();
 
             return NoContent();

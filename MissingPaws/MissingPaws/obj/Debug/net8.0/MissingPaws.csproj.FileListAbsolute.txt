@@ -130,10 +130,10 @@ C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Deb
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MissingPaws.props
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MissingPaws.props
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\MissingP.EDDDAE74.Up2Date
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\MissingPaws.dll
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\refint\MissingPaws.dll
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\MissingPaws.pdb
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\MissingPaws.genruntimeconfig.cache
 C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\ref\MissingPaws.dll
+C:\Users\herbert.parasio\Desktop\Dev\MissingPaws\MissingPaws\MissingPaws\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

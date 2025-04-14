@@ -28,7 +28,8 @@ namespace MissingPaws.Tests
                 MissingDate = DateTime.Now,
                 LastSeenLocation = "Lago Oeste",
                 ContactInfo = "12345-6789",
-                ImageUrl = "rocky.png"
+                ImageUrl = "rocky.png",
+                IsApproved = true
             };
 
             context.LostPets.Add(pet);
@@ -148,6 +149,67 @@ namespace MissingPaws.Tests
 
             Assert.Equal("Thor", createdPet.Name);
         }
+
+        [Fact]
+        public async Task GetLostPets_OnlyReturnsApprovedPets()
+        {
+            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+                .UseInMemoryDatabase("OnlyApprovedPetsDb")
+                .Options;
+
+            using var context = new ApplicationDbContext(options);
+
+            context.LostPets.AddRange(
+                new LostPet { Name = "Rex", IsApproved = true, MissingDate = DateTime.Now, LastSeenLocation = "Rua 1", ContactInfo = "1111", ImageUrl = "img1" },
+                new LostPet { Name = "Luna", IsApproved = false, MissingDate = DateTime.Now, LastSeenLocation = "Rua 2", ContactInfo = "2222", ImageUrl = "img2" }
+            );
+
+            await context.SaveChangesAsync();
+
+            var controller = new LostPetsController(context);
+
+            var result = await controller.GetLostPets();
+
+            var actionResult = Assert.IsType<ActionResult<IEnumerable<LostPet>>>(result);
+            var pets = Assert.IsType<List<LostPet>>(actionResult.Value);
+
+            Assert.Single(pets);
+            Assert.Equal("Rex", pets[0].Name);
+        }
+
+        [Fact]
+        public async Task ApprovePet_SetsIsApprovedToTrue()
+        {
+            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+                .UseInMemoryDatabase("ApprovePetDb")
+                .Options;
+
+            using var context = new ApplicationDbContext(options);
+
+            var pet = new LostPet
+            {
+                Name = "Nina",
+                IsApproved = false,
+                MissingDate = DateTime.Now,
+                LastSeenLocation = "Rua X",
+                ContactInfo = "9999",
+                ImageUrl = "img.png"
+            };
+
+            context.LostPets.Add(pet);
+            await context.SaveChangesAsync();
+
+            var controller = new LostPetsController(context);
+
+            var result = await controller.ApprovePet(pet.Id);
+
+            Assert.IsType<NoContentResult>(result);
+
+            var approved = await context.LostPets.FindAsync(pet.Id);
+            Assert.True(approved.IsApproved);
+        }
+
+
         [Fact]
         public async Task GetLostPets_Returns_All_LostPets()
         {
@@ -165,7 +227,8 @@ namespace MissingPaws.Tests
                 MissingDate = DateTime.Now,
                 LastSeenLocation = "Rua A",
                 ContactInfo = "123",
-                ImageUrl = "img1.png"
+                ImageUrl = "img1.png",
+                IsApproved = true
             });
 
             context.LostPets.Add(new LostPet
@@ -174,7 +237,8 @@ namespace MissingPaws.Tests
                 MissingDate = DateTime.Now,
                 LastSeenLocation = "Rua B",
                 ContactInfo = "456",
-                ImageUrl = "img2.png"
+                ImageUrl = "img2.png",
+                IsApproved = true
             });
 
             await context.SaveChangesAsync();
