@@ -37,6 +37,15 @@ namespace MissingPaws.API.Controllers
             return pet;
         }
 
+        [HttpGet("unapproved")]
+public async Task<ActionResult<IEnumerable<LostPet>>> GetUnapprovedPets()
+{
+    return await _context.LostPets
+        .Where(p => !p.IsApproved)
+        .ToListAsync();
+}
+
+
         // POST: api/LostPets
         [HttpPost]
 public async Task<ActionResult<LostPet>> PostLostPet(LostPet pet)
