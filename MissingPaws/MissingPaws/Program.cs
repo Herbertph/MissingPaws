@@ -1,6 +1,10 @@
+using DotNetEnv;
 using MissingPaws.Data;
 using Microsoft.EntityFrameworkCore;
 
+Env.TraversePath().Load();
+var adminPassword = Environment.GetEnvironmentVariable("ADMIN_PASSWORD");
+Console.WriteLine("Senha de admin carregada: " + (adminPassword ?? "NÃO ENCONTRADA"));
 var builder = WebApplication.CreateBuilder(args);
 
 //Cors
