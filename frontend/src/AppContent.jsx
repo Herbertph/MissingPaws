@@ -1,10 +1,10 @@
-// AppContent.jsx
 import { Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import LostPetList from './components/LostPetList';
 import NewPetForm from './components/NewPetForm';
 import AdminPanel from './components/AdminPanel';
 import axios from 'axios';
+import './App.css';
 
 function AppContent() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -30,46 +30,48 @@ function AppContent() {
   };
 
   return (
-    <div className="main-container">
-      {/* Header */}
-      <header className="header">
-        <div className="logo">
-          {/*<span role="img" aria-label="paw">🐾</span>*/}
-          <h1>MissingPaws</h1>
-        </div>
-        <button onClick={handleLogin}>Admin</button>
-      </header>
+    <div className="container">
+      <div className="container">
+        <header>
+          <div className="logo">
+            <span style={{ fontSize: '28px' }}>🐾</span>
+            <strong style={{ marginLeft: '10px', fontSize: '20px', color: '#333' }}>MissingPaws</strong>
+          </div>
+          <button onClick={handleLogin} className="admin-button">
+            Admin
+          </button>
+        </header>
 
-      {/* Hero */}
-      <section className="hero">
-        <div className="hero-text">
-          <h2>Ajude a reunir pets perdidos com suas famílias</h2>
-          <p>MissingPaws é uma plataforma feita com amor para facilitar o reencontro entre pets perdidos e seus donos. Qualquer pessoa pode cadastrar um pet visto ou perdido. Juntos podemos fazer a diferença.</p>
-        </div>
-        {/*<div className="hero-image">
-          <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Ilustração de pet" />
-        </div>*/}
-      </section>
+        <section className="hero">
+          <div className="text">
+            <h2>Help reunite lost pets with their families</h2>
+            <p>MissingPaws is a platform made with love to help reconnect lost pets with their owners. Anyone can register a pet that has been seen or lost. Together, we can make a difference.</p>
+          </div>
+          <img
+            src="./logo.png"
+            alt="Ilustração de pet"
+          />
+        </section>
 
-      {/* Pet List */}
-      <section className="pet-section">
-        <h2>Pets Cadastrados</h2>
-        <LostPetList />
-      </section>
+        <section className="pet-section">
+          <h2>Lost Pets</h2>
+          <div className="pet-grid">
+            <LostPetList />
+          </div>
+        </section>
 
-      {/* Formulário */}
-      <section className="form-section">
-        <NewPetForm />
-      </section>
+        <section>
+          <NewPetForm />
+        </section>
 
-      {/* Footer */}
-      <footer className="footer">
-        © 2025 MissingPaws. Todos os direitos reservados.
-      </footer>
+        <footer>
+          © 2025 MissingPaws. Todos os direitos reservados.
+        </footer>
 
-      <Routes>
-        <Route path="/admin" element={isAuthenticated ? <AdminPanel /> : <Navigate to="/" replace />} />
-      </Routes>
+        <Routes>
+          <Route path="/admin" element={isAuthenticated ? <AdminPanel /> : <Navigate to="/" replace />} />
+        </Routes>
+      </div>
     </div>
   );
 }

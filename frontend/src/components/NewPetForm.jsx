@@ -50,11 +50,11 @@ function NewPetForm() {
 
   return (
     <div className="max-w-lg mx-auto bg-white p-6 rounded shadow">
-      <h2 className="text-2xl font-bold mb-4">Cadastrar Pet Perdido</h2>
+      <h2 className="text-2xl font-bold mb-4">Register Lost Pet</h2>
 
       {success && (
         <p className="bg-green-100 text-green-800 p-2 rounded mb-4">
-          Pet enviado com sucesso! Aguarde aprovação.
+          Registered successfully! Wait for approval.
         </p>
       )}
 
@@ -101,7 +101,7 @@ function NewPetForm() {
           value={formData.imageUrl}
           onChange={handleChange}
           required
-          className="w-full border p-2 rounded"
+          className="w-full border p-2 rounded "
         />
 
         <button
